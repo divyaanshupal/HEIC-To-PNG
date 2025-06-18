@@ -1,16 +1,31 @@
-# converter
+# 🖼️ HEIC to PNG Converter (Flutter Desktop App)
 
-A new Flutter project.
+This is a simple Flutter desktop app that lets you convert `.heic` image files to `.png` using [ImageMagick](https://imagemagick.org).  
+Supports **multiple file selection** and converts all selected files with a single click!
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Convert `.heic` → `.png` in seconds
+- ✅ Select multiple HEIC files at once
+- ✅ Works on **Windows** (Flutter Desktop)
+- ✅ Uses ImageMagick under the hood
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📷 Screenshot
+
+<img src="assets/screenshot.png" width="500" />
+
+---
+
+## 🧱 Prerequisites
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) with desktop support enabled
+- [ImageMagick](https://imagemagick.org/script/download.php) installed and added to system PATH
+
+You can verify installation with:
+
+```bash
+magick -version
