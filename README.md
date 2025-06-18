@@ -1,4 +1,4 @@
-# 🖼️ HEIC to PNG Converter (Flutter Desktop App)
+# 🖼️ HEIC to PNG Converter (Flutter Desktop & Web App)
 
 This is a simple Flutter desktop app that lets you convert `.heic` image files to `.png` , try its web version [Converter](https://heictopng.netlify.app/).  
 Supports **multiple file selection** and converts all selected files with a single click!
